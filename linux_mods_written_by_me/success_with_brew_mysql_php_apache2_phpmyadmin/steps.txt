@@ -1,0 +1,16 @@
+brew install mysql php apache2 phpmyadmin
+REPLACE httpd into /opt/homebrew/
+brew services restart mysql apache2
+brew postinstall mysql # root will be enabled
+
+VIA SHELL:
+  mysql -u root
+  CREATE USER 'admin'@'localhost' IDENTIFIED BY 'admin';
+  GRANT ALL PRIVILEGES ON *.* TO 'admin'@'localhost';
+RESTART:
+  brew services restart mysql apache2
+VIA PHPMYADMIN:
+  CREATE THE USER: 'aion_test', pass: '123' for: '192.168.56.%'
+VIA SHELL:
+  mysql -u root
+  GRANT ALL PRIVILEGES ON  `aion\_test`.* TO 'aion_test'@'192.168.56.%';

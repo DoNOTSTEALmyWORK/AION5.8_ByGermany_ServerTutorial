@@ -1,0 +1,7 @@
+Server: https://github.com/AionGermany/aion-germany?tab=readme-ov-file
+Clients: https://forum.ragezone.com/threads/aion-client-gathering.1206091/
+Client: 5.8:https://drive.google.com/drive/folders/1YF5nvwwgAyz_dfjQL5FGwSYsfZjimqzX
+Client-Example: https://disk.yandex.ru/d/8r46o43ZR7x-Lw/aion%205.x
+
+CheckSum info: https://www.shellhacks.com/windows-md5-sha256-checksum-built-in-utility/ 
+CheckSum shell: certUtil -hashfile C:\file.img MD5

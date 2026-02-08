@@ -1,0 +1,2 @@
+the program asked for too many os privileges and it is a serious vulnerability.
+and doesn't work well with the macos firewall!

@@ -1,0 +1,7 @@
+the program asked for too many os privileges and it is a serious vulnerability.
+and doesn't work well with the macos firewall!
+
+PHPMYADMIN has been built to run on localhost (considering the server).
+It requires too many fix to work well from another machines.
+Brew integrates it better (with mysql and apache2).
+Brew also can give a bertter mysql post installation script (more secure). 
